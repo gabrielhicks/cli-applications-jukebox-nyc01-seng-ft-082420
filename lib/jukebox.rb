@@ -18,7 +18,8 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
 
-  if songs[index] == nil || s
+  if songs[index] == nil || songs.none?(user_input)
+    puts "Invalid"
   
   if index >= 0 && user_input.length == 1
     puts "Playing #{songs[index]}"
