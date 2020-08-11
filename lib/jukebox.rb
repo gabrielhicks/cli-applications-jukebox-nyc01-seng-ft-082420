@@ -19,6 +19,7 @@ def play(songs)
   index = user_input.to_i - 1
   
   if index > 0
+    binding.pry
     puts songs[index]
   end
   
