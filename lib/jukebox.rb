@@ -22,4 +22,6 @@ def play(songs)
     puts "Playing #{songs[index]}"
   end
   
+  if user_input.length > 1 
+  
 end
