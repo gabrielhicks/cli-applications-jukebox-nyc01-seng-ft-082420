@@ -23,7 +23,7 @@ def play(songs)
     puts "Playing #{songs[index]}"
   end
   
-  if songs.include? user_input
+  if songs.include?(user_input)
     puts "Playing #{user_input}"
   end
   
