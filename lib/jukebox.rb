@@ -36,7 +36,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(command)
   puts "Please enter a command:"
   gets.strip = user_input
   
