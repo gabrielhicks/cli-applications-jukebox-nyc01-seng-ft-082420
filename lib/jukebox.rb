@@ -18,17 +18,7 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
 binding.pry
-  if songs[index] < 0 && 
-    puts songs[index]
-  end
-
-  songs.each do |song|
-    if user_input != song
-      return "Invalid input, please try again"
-      binding.pry
-    elsif user_input == song
-      puts song
-    end
+  if 
   end
   
 end
