@@ -42,6 +42,12 @@ def run(command)
   
   if user_input == "exit"
     exit_jukebox
+  elsif user_input == "help"
+    help
+  elsif user_input == "list"
+    list
+  elsif user_input == "play"
+    play
   end
   
   
