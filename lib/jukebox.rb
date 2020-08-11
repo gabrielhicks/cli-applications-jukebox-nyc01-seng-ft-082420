@@ -18,7 +18,7 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
   
-  if user_input == "exit"
+  if user_input == 'exit'
     exit_jukebox
   end
   
