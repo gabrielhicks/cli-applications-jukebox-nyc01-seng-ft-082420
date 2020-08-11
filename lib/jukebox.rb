@@ -41,13 +41,13 @@ def run(songs)
   user_input = gets.strip
   
   case user_input
-  when== "exit"
+  when == "exit"
     exit_jukebox
-  elsif user_input == "help"
+  when == "help"
     help
-  elsif user_input == "list"
+  when == "list"
     list(songs)
-  elsif user_input == "play"
+  when == "play"
     play(songs)
   end
   
