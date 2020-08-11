@@ -19,7 +19,7 @@ def play(songs)
   index = user_input.to_i - 1
 
   if index >= 0 && user_input.length == 1
-    puts songs[index]
+    puts "Playing #{songs[index]}"
   end
   
 end
