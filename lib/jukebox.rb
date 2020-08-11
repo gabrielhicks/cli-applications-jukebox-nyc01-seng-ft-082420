@@ -18,9 +18,7 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
   
-  if index > 0
-    puts songs[index]
-  end
+  puts songs[index]
 
   
 end
