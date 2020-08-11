@@ -18,7 +18,7 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
 
-  if songs[index] < 0 && songs.include? user_input == true
+  if songs.include? user_input
     puts "Playing #{user_input}"
   end
 
