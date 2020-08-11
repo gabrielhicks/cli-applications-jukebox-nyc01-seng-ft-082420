@@ -17,7 +17,6 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   index = user_input.to_i - 1
-  binding.pry
 
   if index >= 0 && user_input.length == 1
     puts "Playing #{songs[index]}"
