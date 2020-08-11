@@ -18,10 +18,6 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
   
-  if user_input == 'exit'
-    exit_jukebox
-  end
-  
   if songs[index] == nil || songs.none?(user_input)
     puts "Invalid input, please try again"
   end
@@ -39,3 +35,5 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
