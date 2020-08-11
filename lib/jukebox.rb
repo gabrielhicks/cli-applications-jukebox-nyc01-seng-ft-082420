@@ -18,7 +18,7 @@ def play(songs)
   user_input = gets.strip
   index = user_input.to_i - 1
 binding.pry
-  if songs[index]
+  if songs[index] 
     puts songs[user_input.to_i + 1]
   end
 
